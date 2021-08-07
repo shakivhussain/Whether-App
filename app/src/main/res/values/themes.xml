@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.AndroidApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/gprimary</item>
+        <item name="colorSecondary">@color/gprimary</item>
+        <item name="colorSecondaryVariant">@color/gprimary</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="23">true</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/whiteColor</item>
+    </style>
+
+
+
+    <style name="Theme.WhetherApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/gprimary</item>
+        <item name="colorSecondary">@color/gprimary</item>
+        <item name="colorSecondaryVariant">@color/gprimary</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="23">true</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/whetherBackground</item>
+    </style>
+</resources>
